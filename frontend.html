@@ -567,8 +567,7 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <form action="https://send.pageclip.co/QUmkmCt7vEGCZpPUrxOXlt3wGsgAFeQn/PAP" class="pageclip-form needs-validation" method="post" >
-                   
+                    <form action="https://send.pageclip.co/QUmkmCt7vEGCZpPUrxOXlt3wGsgAFeQn/PAP" class="pageclip-form needs-validation"  novalidate method="post">
 
                       <div class="col-sm-12 mb-3">
                         <label for="validationCustom01">Name</label>
@@ -636,8 +635,11 @@
                           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
                         </div>
                       </div>
-<button type="submit" class="pageclip-form__submit btn btn-primary btn_1 d-block">
-                     
+
+                      <!-- <button class="btn btn-primary btn_1 d-block" type="submit">Submit form</button> -->
+                      <button type="submit" class="pageclip-form__submit btn btn-primary btn_1 d-block">
+                        <span>Send</span>
+                      </button>
                     </form>
 
 
@@ -826,8 +828,7 @@
     }
 
   </script>
-              <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-
+  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
   <script>
     // Example starter JavaScript for disabling form submissions if there are invalid fields
     (function () {
